@@ -5,7 +5,7 @@ on:
     branches:
       - main
       - master
-      - CI/CD-workflow
+      - development
 
 jobs:
   test:
