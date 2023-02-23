@@ -26,7 +26,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: 'Run tests'
-        run: npm run test  --if-present
+        run: npm run test --if-present
 
       - name: Build
-        run:
+        run: npm run build
