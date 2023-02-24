@@ -1,0 +1,15 @@
+.card {
+    width: 20%;
+    background-color: var(--bg);
+}
+
+.card-button {
+    background-color: var(--green);
+}
+
+.ft-speaker-card {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
