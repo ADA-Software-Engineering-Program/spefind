@@ -1,0 +1,12 @@
+.ft-review {
+ width: 30%;
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-between;
+}
+
+.ft-review-sum {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.1rem;
+}
