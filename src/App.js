@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import "./App.css";
 import FeaturedReview from "./Components/FeaturedReview/FeaturedReview";
 import FeaturedSpeakersCard from "./Components/FeaturedSpeakersCard/FeaturedSpeakersCard";
