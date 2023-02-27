@@ -1,0 +1,230 @@
+.hero-section {
+    display: flex;
+    margin-bottom: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 4rem;
+    background-color: var(--bg);
+}
+
+.hero-main {
+    width: 50%;
+}
+
+.hero-img {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 80vh;
+    overflow: hidden;
+}
+
+.hero-h3 {
+    color: var(--green);
+    font-size: 3rem;
+}
+
+.hero-summary {
+    line-height: 2rem;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--orange);
+    color: var(--black);
+    border: none;
+    border-radius: 20px 2px 20px 2px;
+    width: 10rem;
+}
+
+.ft-speaker-section {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: var(--white);
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-bottom: 7rem;
+}
+
+.ft-speaker-section input {
+    width: 35%;
+    border: 1px solid var(--black);
+    background-color: var(--bg);
+    border-radius: 1rem;
+    padding: 1.4rem; 
+}
+
+.ft-speaker-head {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.ft-speaker-card {
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;   
+}
+
+.summary-summary {
+    text-align: center;
+    background-color: var(--bg);
+    padding: 2rem 8rem;
+}
+
+.summary-summary h1 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.summary-summary p {
+    padding: 0 14rem ;
+    line-height: 2.3rem;
+}
+
+.summary-detail {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 6rem 8rem;
+    padding-top: 1rem;
+}
+
+.summary-detail h1 {
+    font-size: 3rem;
+    color: var(--green);
+    letter-spacing: 0.3rem;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-reviews {
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 8rem;
+    padding-top: 2rem;
+}
+
+.ft-reviews h1 {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.message-container {
+    background-color: var(--bg);
+    text-align: right;
+    padding: 2.5rem 3rem;
+}
+
+.footer-main {
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 6rem;
+    padding-bottom: 4rem;
+    color: var(--white);
+}
+
+.event-button {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.event-btn {
+    padding: 0.8rem 0rem;
+    width: 45%;
+    border: 0.5px solid var(--white);
+    border-radius: 0.6rem;
+}
+
+.sub-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 0.6rem;
+    
+}
+
+.sub-form label {
+    margin-right: 1rem;
+    color: var(--orange);
+}
+
+.sub-form input {
+    width: 25rem;
+    padding: 0.5rem;
+}
+
+.sub-form button {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid var(--green);
+    background-color: var(--green);
+}
+
+.footer-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+
+
+.footer-links li {
+    margin-bottom: 1rem;
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--white)
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container h6 {
+    font-weight: 400;
+}
+
+.footer-summary {
+    display: flex;
+    margin-top: 3rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials svg{
+    margin-left: 1rem;
+}
