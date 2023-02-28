@@ -25,7 +25,7 @@ A platform where event organizers could go to access a list of speakers and choo
 
 
 # Built with
-HTML, CSS, Bootstrap,style websites, React and Firebase
+HTML, CSS, Bootstrap,tailwind, React and Firebase
 
 
 # Implementation:
