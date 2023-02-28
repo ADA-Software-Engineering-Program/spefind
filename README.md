@@ -33,6 +33,7 @@ HTML, CSS, Bootstrap, React and Firebase
 The key Tools for implementation.:
 React JavaScript Framework
 Html, CSS and Bootstrap will be used to create a responsive website for easy client side interactions.
+tailwind, css framework for styling the website
 Firebase and API for local storage purposes and other website functionality.
 
 
