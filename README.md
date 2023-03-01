@@ -37,6 +37,11 @@ tailwind, css framework for styling the website
 Firebase and API for local storage purposes and other website functionality.
 
 
+
+# Link to the project 
+https://spefind.netlify.app/
+
+
 # Functional Requirements
 
 The chatbot should be able to respond to user queries related to performer search and booking.
