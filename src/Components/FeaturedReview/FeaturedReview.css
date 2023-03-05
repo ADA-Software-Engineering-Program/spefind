@@ -1,0 +1,24 @@
+.ft-review {
+ width: 30% !important;
+ display: flex !important;
+ align-items: start !important;
+ justify-content: space-evenly !important;
+ flex-direction: row !important;
+}
+
+.ft-review-sum {
+    font-size: 0.8rem;
+    /* line-height: 1.3rem; */
+    /* letter-spacing: 0.1rem; */
+}
+.ft-review-profile {
+    text-align: start !important;
+    padding: 5px 2px !important;
+}
+.ft-review-profile p {
+    text-align: start !important;
+
+}
+.ftmain {
+    text-align: start !important;
+}

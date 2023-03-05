@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: var(--bg);
+}
+
+.logo-container {
+    line-height: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.Log-in-btn {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--orange);
+    color: var(--black);
+    border: none;
+    border-radius: 20px 2px 20px 2px;
+}
+
+
+@media screen and (max-width:768px) {
+   .NavList{
+        display: none;
+    }
+    nav {
+    display: none;
+    }
+    .log-in-btn {
+        display: none;
+    }
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+   
+
+}

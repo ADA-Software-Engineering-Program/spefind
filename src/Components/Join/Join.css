@@ -1,0 +1,100 @@
+ .Bg-img {
+ background-image: url(/src/img/background.png);
+ background-repeat: no-repeat;
+ /* background-size: cover;  */
+ height: 1000px;
+ 
+}
+.JoinForm {
+     display: grid;
+     position:relative;
+     width: 500px;
+     height: 600px;
+     left: 784.58px;
+     top: 158px;
+     background: #FFFFFF;
+     box-shadow: 0px 3.16342px 62.4016px 3.16342px rgba(227, 80, 47, 0.1);
+     border-radius: 7.92623px;
+
+}
+.joinCard {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: start;
+     padding: 10px; 
+     margin: 10px 10px;
+     gap: 10px;
+     width: 190%;
+
+}
+.NameCard {
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     align-items: start;
+     /* padding: 10px;  */
+     margin: 10px 10px;
+     gap: 10px;
+     width: 41%;
+
+}
+
+.labell {
+  font-weight: bold;
+}
+.labelForm{
+   display: flex;
+   justify-content: space-between;
+   font-weight: bold;
+
+}
+
+input {
+  width: 40%;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btnSign-up {
+     display: flex;
+     background: #359E4C;
+     width: 80%;
+     padding: 15px;
+     color: #fff;
+     border: none;
+     outline: hidden;
+     border-radius: 8px;
+     cursor: pointer;
+     justify-content: center;
+     padding: 2px; 
+     margin: 10px 10px;
+     gap: 10px;
+     width: 80%;
+
+}
+.btnSign-up {
+     display: flex;
+     justify-content: center;
+
+}
+.or {
+     display: flex;
+     font-size: 20px;
+     justify-content: center;
+}
+.icon {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+}
+p{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.Sign-Up {
+     color: black;
+     font-weight: bold;
+}
