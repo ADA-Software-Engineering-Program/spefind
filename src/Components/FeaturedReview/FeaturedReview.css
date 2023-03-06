@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+
 .ft-review {
  width: 30% !important;
  display: flex !important;
@@ -15,10 +19,24 @@
     text-align: start !important;
     padding: 5px 2px !important;
 }
+
 .ft-review-profile p {
+     display: block;
     text-align: start !important;
 
 }
 .ftmain {
+    display: inline;
     text-align: start !important;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif
+    ;
+    line-height: 1px;
+
+}
+.PName {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1px;
+
 }

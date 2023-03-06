@@ -10,7 +10,7 @@ const FeaturedReview = ({ ftImage, ftName, ftPosition, ftReview }) => {
 
       <div className="ft-review-profile">
         <h6>
-          <p>{ftName}</p>
+          <p className="PName">{ftName}</p>
           <p className="ftmain"> {ftPosition}</p>
         </h6>
 
