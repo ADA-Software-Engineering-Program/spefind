@@ -1,10 +1,33 @@
 import React from "react";
 import './Navbar.css'
 // import { NavLink } from "react-router-dom";
+
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const NavList = document.querySelector(".NavList");
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const element = document.querySelector("#my-element");
+  if (element) {
+    element.addEventListener("click", function () {
+     hamburgerMenu.addEventListener("click", () => {
+       NavList.classList.toggle("nav-active");
+       hamburgerMenu.classList.toggle("show-nav");
+     });
+    });
+  }
+});
+
+
 const Navbar = () => {
   return (
     <nav>
-      {/* <div className="ClickIcon">x</div> */}
+      {/* <div  className="hamburger-menu">
+        <div  className="bar"></div>
+        <div  className="bar"></div>
+        <div  className="bar"></div>
+      </div> */}
+
       <div className="logo-container">
         <h1>SPEFIND</h1>
         <h6>Connecting Speakers to the world</h6>

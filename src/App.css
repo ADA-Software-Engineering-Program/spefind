@@ -96,7 +96,7 @@
 .ft-speaker-section input {
     width: 25%;
     border: 1px solid var(--black);
-    /* background-color: var(--bg); */
+    background-color: var(--bg);
     border-radius: 1rem;
     padding: 1.4rem; 
     margin-top: 25px;
@@ -104,7 +104,7 @@
 
 .ft-speaker-head {
     font-size: 3rem;
-    color: var(--green);
+    color: var(--black);
 }
 
 .ft-speaker-card {
@@ -127,7 +127,7 @@
 
 .summary-summary h1 {
     font-size: 3rem;
-    color: var(--green);
+    color: var(--black);
 }
 
 .summary-summary p {
@@ -144,7 +144,7 @@
 
 .summary-detail h1 {
     font-size: 3rem;
-    color: var(--green);
+    color: var(--black);
     letter-spacing: 0.3rem;
 }
 
@@ -166,7 +166,7 @@
 
 .ft-reviews h1 {
     font-size: 2rem;
-    color: var(--green);
+    color: var(--black);
 }
 
 .reviews {
@@ -277,68 +277,7 @@
 }
 
 @media screen and (max-width:768px) {
-   /* .sectionBody
-    {
-    flex-direction: column;
-    width: 300px;
-    flex-wrap: wrap;
-    display: flex;
-    font-size: 10px;
-    margin-bottom: 4rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-bottom: 4rem;
-    background-color: var(--bg);
-    overflow-x: hidden;
-}
-.hero-img  {
-    max-width: 100%;
-    gap: 10px;
-
-}
-
-img {
-    display: grid;
-    align-items: center;    
-    justify-content: center;
-    grid-template-columns:(1fr 1fr 1fr );
-    grid-template-rows: (1fr 1fr);
-    max-width: 120%;
-    margin-top: 30px;
-    overflow: hidden;
-    max-height: 150vh;
-}
-
-
-.main-page {
-    order: -2;
-}
-.hero-button {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: var(--orange);
-    color: var(--black);
-    border: none;
-    border-radius: 20px 2px 20px 2px;
-    width: 100%;
-}
-
-.ft-speaker-section input {
-    width: 100%;
-    flex: 1;
-    margin-top: -100px;
-    border: 1px solid var(--black);
-    background-color: var(--bg);
-    border-radius: 1rem;
-    padding: 1.0rem; 
-}
-  */
-
+   
       .sectionBody {
   display: flex;
   flex-wrap: wrap;
@@ -404,6 +343,7 @@ img {
   
   .ft-speaker-section input {
     width: 100%;
+
   }
 
 
@@ -428,12 +368,13 @@ img {
 
 .ft-speaker-head {
     font-size: 3rem;
-    color: var(--green);
+    color: var(--black);
 }
 
 .ft-speaker-card {
     width: 100%;
     padding: 20px 20px;
+    gap: 15px;
     display: flex !important;
     flex-wrap: wrap !important ; 
     justify-content: space-evenly !important; 
@@ -453,7 +394,7 @@ font-size: 2rem;
 }
 
 .summary-summary p {
-padding: 0 2rem;
+padding:  0 2rem;
 }
 
 .summary-detail {
@@ -479,12 +420,14 @@ background-color: var(--bg);
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 0 2rem;
+padding: 0 1rem;
 padding-top: 2rem;
 }
 
 .ft-reviews h1 {
 font-size: 2rem;
+color: #111010;
+
 }
 
 .reviews {
@@ -511,7 +454,7 @@ width: 100%;
 }
 
 .sub-form button {
-padding: 0.5rem 1rem;
+padding: 0.5rem .2rem;
 }
 
 .footer-links {

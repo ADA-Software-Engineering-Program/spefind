@@ -53,3 +53,89 @@ a {
    
 
 }
+
+
+/* .hamburger-menu {
+  display: none;
+  cursor: pointer;
+} */
+
+/* .bar {
+    width: 30px;
+    height: 5px;
+    background-color:var(--orange);
+    margin: 6px 0;
+    margin-right: 100px;
+} */
+
+.logo-container {
+    line-height: 0;
+}
+
+
+
+@media screen and (max-width:768px) {
+   .NavList{
+    display: none;
+    }
+
+ /* .hamburger-menu {
+    display: block;
+  } */
+ 
+
+/* .nav-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(100%);
+  }
+
+  .nav-active li {
+    opacity: 0;
+  }
+
+  .nav-active li a {
+    font-size: 1.5rem;
+  }
+
+  .show-nav {
+    transform: translateX(0);
+  } */
+
+
+
+
+    .Log-in-btn {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--orange);
+    color: var(--black);
+    border: none;
+    border-radius: 20px 2px 20px 2px;
+  }
+   a {
+    text-decoration: none;
+    color: black;
+  }
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+   
+
+}

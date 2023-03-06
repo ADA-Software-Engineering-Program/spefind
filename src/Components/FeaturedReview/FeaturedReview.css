@@ -40,3 +40,43 @@
     line-height: 1px;
 
 }
+
+@media (max-width: 768px) {
+.ft-review {
+width: 50% !important;
+display: block !important;
+align-items: center !important;
+justify-content: center !important;
+flex-direction: column !important;
+}
+
+.ft-review-sum {
+font-size: 0.5rem;
+line-height: 1rem;
+letter-spacing: 0.1rem;
+}
+
+.ft-review-profile {
+text-align: center !important;
+padding: 10px 2px !important;
+}
+
+.ft-review-profile p {
+display: block;
+text-align: center !important;
+}
+
+.ftmain {
+display: inline;
+text-align: center !important;
+font-size: 10px;
+font-family: 'Montserrat', sans-serif;
+line-height: 1.2rem;
+}
+
+.PName {
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+line-height: 1.2rem;
+}
+}

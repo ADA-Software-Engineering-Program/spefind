@@ -10,8 +10,8 @@
      position:relative;
      width: 500px;
      height: 600px;
-     left: 784.58px;
-     top: 158px;
+     left: 754px;
+     top: 168px;
      background: #FFFFFF;
      box-shadow: 0px 3.16342px 62.4016px 3.16342px rgba(227, 80, 47, 0.1);
      border-radius: 7.92623px;
@@ -97,4 +97,71 @@ p{
 .Sign-Up {
      color: black;
      font-weight: bold;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .JoinForm {
+     width: 80%;
+     left: auto;
+     top: auto;
+     margin: 0 auto;
+  }
+  
+  .joinCard {
+    width: 80%;
+  }
+  
+  .NameCard {
+    width: 90%;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 100%;
+  }
+  
+  .btnSign-up {
+    width: 90%;
+  }
+  
+  .icon {
+    flex-direction: row;
+    font-size: .5px;
+  }
+  
+  .labelForm {
+    flex-direction: column;
+  }
+  
+  .or {
+    font-size: 8px;
+  }
+  
+  .Bg-img {
+    height: auto;
+    background-size: cover;
+  }
+
+p{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     font-size: 10px;
+}
+.Sign-Up {
+     color: black;
+     font-weight: bold;
+          font-size: 10px;
+
+
+}
+}
+/* Media query for screens between 600px and 1200px */
+@media (min-width: 601px) and (max-width: 1200px) {
+  .JoinForm {
+     width: 60%;
+     left: 354px;
+     top: 178px;
+  }
 }
