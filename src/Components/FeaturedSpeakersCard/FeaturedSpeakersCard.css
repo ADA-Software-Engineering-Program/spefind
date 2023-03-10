@@ -116,6 +116,7 @@
 
 .reviewSection {
     background-color: var(--bg);
+    padding-bottom: 5rem;
 }
 
 .reviewCards{
