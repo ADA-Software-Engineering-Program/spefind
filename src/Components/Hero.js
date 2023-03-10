@@ -22,7 +22,7 @@ function Hero() {
                 Spefind has got you covered. We are solely here to widen and expand the genius in you. 
                <span className='fw-bolder'> Are you ready to be discovered?</span>
             </p>
-            <Link to='/Signup'  className='getBtn'>
+            <Link to='/SignUp'  className='getBtn'>
                 Get Started
                 <BsArrowRight className='ms-2'/>
             </Link>

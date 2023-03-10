@@ -25,6 +25,8 @@
     border-radius: 0rem 1.5rem 1.5rem 1rem ;
 }
 
+
+
 .getBtn {
     background-color: var(--orange);
     color: var(--black);
@@ -43,6 +45,10 @@
   
 .nav-link.active {
     color: var(--orange) !important;
+}
+
+#logBtn.active {
+    color: white !important;
 }
 
 
