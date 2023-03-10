@@ -16,13 +16,15 @@ const Header = () => {
 
   return (
     <Navbar expand="lg" className="navbar-main">
-      <Container className='d-flex'>
-        <Navbar.Brand href="/">
-          <img src={Logo} alt="logo" className="headerLogo" />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Container>
+        <div className="d-flex align-items-center">
+          <Navbar.Brand href="/">
+            <img src={Logo} alt="logo" className="headerLogo" />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </div>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className=" nav-gap ">
+          <Nav className="nav-gap">
             <Nav.Link href="/" className={splitLocation[1] === '' ? 'active' : ''}>
               Home
             </Nav.Link>
@@ -52,10 +54,11 @@ const Header = () => {
             </Nav.Link>
             <Nav.Link
               href="./login"
-              className={splitLocation[1] === 'login' ? 'active' : ''} id='logBtn'
+              className={splitLocation[1] === 'login' ? 'active' : ''}
+              id="logBtn"
             >
               Log In
-              <BsArrowRight className='arrow'/>
+              <BsArrowRight className="arrow" />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

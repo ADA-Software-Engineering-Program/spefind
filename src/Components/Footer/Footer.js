@@ -7,15 +7,16 @@ import './Footer.css'
 function Footer() {
   return (
     <section className='text-center justify-content-center footer'>
-        <div className='btns'>
-            <Link to='' className='btn btn-md'>Event Organizer</Link>
-            <Link to='' className='btn btn-md'>Speaker</Link>
+        <div className='btns py-5'>
+            <Link to='' className='btn btn-md eventBtn'>Event Organizer</Link>
+            <Link to='' className='btn btn-md eventBtn eventBtn1'>Speaker</Link>
         </div>
-        <form className='d-flex justify-content-center'>
-            <h5>Subscribe to our newsletter</h5>
-            <input type='text' placeholder='Enter your email'/>
-            <button type='submit' className='btn footBtn'>Submit</button>
+        <form action="#" method="POST" class="d-flex justify-content-around bg-white mx-auto mb-5 px-2 p-md-0 p-3 footerForm">
+            <h5 class="news my-auto">Subscribe to our newsletter</h5>
+            <input type="text" placeholder="Enter your email" class="footerInput" name="email" />
+            <button type="submit" class="btn footBtn my-auto">Submit</button>
         </form>
+
         <div className='row footerNav'>
             <div className='col-md-4 text-start'>
                 <h6 className='fw-bold text-white'>NAVIGATION</h6>
@@ -49,8 +50,8 @@ function Footer() {
         </div>
         <div className=' justify-content-between copySection'>
             <img src={footerLogo} alt='logo' className='footerLogo'/>
-            <div className='mt-5'>
-                <p className="text-white">
+            <div className='mt-md-5'>
+                <p className="text-white copyRight">
                 &copy; {new Date().getFullYear()} Spenfind. All right reserved.
                 </p>
             </div>

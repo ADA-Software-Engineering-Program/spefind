@@ -62,14 +62,14 @@ function FeaturedReviwe() {
         </h3>
         <div className='row reviewRow'>
             {firstThreeSpeakers.map((item) => (
-                <div key={item.id} className='col-lg-3'>
+                <div key={item.id} className='col-lg-3 mt-lg-0 mt-2'>
                     <ReviewCard profilePic={item.profilePic} speakerName={item.speakerName} occupation={item.occupation} review={item.review} />
                 </div>
             ))}
         </div>
-        <div className='row mt-4 reviewRow'>
+        <div className='row mt-lg-4 reviewRow  mt-2'>
             {lastThreeSpeakers.map((item) => (
-                <div key={item.id} className='col-lg-3'>
+                <div key={item.id} className='col-lg-3 mt-lg-0 mt-2'>
                     <ReviewCard profilePic={item.profilePic} speakerName={item.speakerName} occupation={item.occupation} review={item.review} />
                 </div>
             ))}

@@ -2,20 +2,46 @@
     background-color: var(--orange);
 }
 
+.eventBtn{
+    border: 1.5px solid white;
+    font-weight: 600;
+    color: white;
+    margin-right: 1rem;
+}
+
+.eventBtn1 {
+    background-color: white;
+    color: var(--orange);
+}
+
+.news{
+    width: 30%;
+    font-size: .7rem;
+    text-align: start;
+    color: var(--orange);
+}
+
+.footerForm {
+    width: 100%;
+    border-radius: .4rem;
+}
+
+.footerInput {
+    width: 50%;
+    border: 1px solid var(--grey);
+    border-radius: .4rem;
+    color: var(--grey);
+}
+
+.footBtn{
+    height: 2.5rem;
+    color: white;
+    background-color: var(--grey);
+}
+
 .footerNav {
     justify-content: center;
-    margin: auto 12rem;
-}
-
-li {
-    font-size: .8rem;
-    font-weight: 400;
-}
-
-.copySection {
-    display: flex;
-    align-items: center;
-    margin: auto 11rem;
+    margin: auto 1rem ;
 }
 
 .footerLogo {
@@ -25,7 +51,7 @@ li {
 
 .socialMedia {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
 }
 
@@ -36,10 +62,72 @@ li {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin-right: .4rem;
+    margin-right: 0rem;
 }
 
 .social {
     margin-top: 0.3rem;
     
+}
+
+@media  screen and (min-width:768px) {
+    .news{
+        width: 30%;
+        font-size: 1rem;
+        text-align: start;
+        color: var(--orange);
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    
+    
+    .news{
+        width: 30%;
+        font-size: 1.3rem;
+        text-align: start;
+        color: var(--orange);
+    }
+    
+    .footerForm {
+        width: 50%;
+        border-radius: .4rem;
+    }
+
+    .footerNav {
+        justify-content: center;
+        margin: auto 12rem;
+    }
+    
+    li {
+        font-size: .8rem;
+        font-weight: 400;
+    }
+    
+    .copySection {
+        display: flex;
+        align-items: center;
+        margin: auto 11rem;
+    }
+    
+   
+    .icon {
+        width: 2rem;
+        height: 2rem;
+        border: 1px solid white;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin-right: .4rem;
+    }
+    
+    .social {
+        margin-top: 0.3rem;
+        
+    }
+    
+    .copyRight {
+        font-size: .7rem;
+        margin-top: 1rem;
+    }
 }

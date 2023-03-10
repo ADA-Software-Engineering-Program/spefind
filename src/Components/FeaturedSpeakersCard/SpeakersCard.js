@@ -57,7 +57,7 @@ function SpeakersCard() {
             </h3>
             <div className='row upperRow'>
                 {firstThreeSpeakers.map((item) => (
-                    <div key={item.id} className='col-lg-3'>
+                    <div key={item.id} className='col-lg-3 '>
                         <FeaturedSpeakersCard speakerImage={item.speakerImage} speakerName={item.speakerName} />
                     </div>
                 ))}

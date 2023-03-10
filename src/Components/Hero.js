@@ -27,7 +27,7 @@ function Hero() {
                 <BsArrowRight className='ms-2'/>
             </Link>
         </div>
-        <div className='col-md-6 heroImage mx-auto '>
+        <div className='col-md-6 heroImage mx-md-auto '>
                 <img src={Speaker1} alt='speakers' className='heroImg speaker1 '/>
                 <img src={Speaker2} alt='speakers' className='heroImg  position-absolute speaker2'/>
                 <img src={Speaker4} alt='speakers' className='heroImg speaker1 speaker4'/>
