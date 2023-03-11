@@ -13,7 +13,7 @@ const Contact = () => {
         <section className='container-fluid contact pb-3'>
             <Navbar/>
             <div className='row justify-content-center'>
-                <div className='col-4 form-holder p-3 rounded-start shadow'>
+                <div className='col-10 col-xl-4 col-lg-4 col-md-5 col-sm-10 col-xs-10 form-holder p-3 rounded-start shadow'>
                     <h3 className='form-heading p-3'>Get in Touch</h3>
                     <form className='p-3'>
                         <p>We are here for you! How can we help?</p>
@@ -40,7 +40,7 @@ const Contact = () => {
                     </form>
                 </div>
 
-                <div className='col-4 image-holder py-4 rounded-end'>
+                <div className='col-10 col-xl-4 col-lg-4 col-md-5 col-sm-10 col-xs-10 image-holder py-4 rounded-end'>
                     <img className='img-fluid mb-3' alt='contact' src={contact}></img>
                     
                     <p><span className='icons me-3'><BsTelephoneInboundFill/></span> +234 1234567891</p>
