@@ -6,7 +6,7 @@ on:
       - main
       - master
       - development
-      - ci/cd-workflowsa
+      - ci/cd-workflows
 
 jobs:
   test:
