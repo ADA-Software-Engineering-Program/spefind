@@ -45,10 +45,12 @@
   
 .nav-link.active {
     color: var(--orange) !important;
+    text-decoration: none;
 }
 
 #logBtn.active {
     color: white !important;
+    text-decoration: none;
 }
 
 

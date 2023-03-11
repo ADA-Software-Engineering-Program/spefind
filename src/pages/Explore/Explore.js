@@ -32,8 +32,8 @@ const Explore = () => {
                         <h1 className='explore-heading p-3'>Explore</h1>
 
                         <div className='form-group col-3 m-auto d-flex border rounded-pill'>
-                            <input type='search' className='form-control border-0' placeholder='Search for speaker'></input>
-                            <button type='submit'></button>
+                            <input type='search' className='form-control border-0 exploreInput' placeholder='Search for speaker'></input>
+                            <button type='submit' className='exploreBtn'></button>
                         </div>
                     </div>
                 </div>
