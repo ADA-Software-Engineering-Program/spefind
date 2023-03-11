@@ -4,6 +4,7 @@ import "./SignIn.css";
 import { auth } from "../../firebase/firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { MdToggleOff } from "react-icons/md"
 
 const SignIn = () => {
   const navigate = useNavigate();
@@ -28,56 +29,44 @@ const SignIn = () => {
   };
   return (
     <div>
-      <div className="SGN">
         <Navbar />
-        <div className="missed">
-          <h1 className="miss">We missed you!</h1>
-        </div>
-        <div className="SignInForm">
-          <div className="FormInput">
-            <label className="Label">E-mail Address</label>
-            {/* <input className="InputForm" type="" placeholder="Type here" /> */}
-
+        <h1 className="miss">We missed you!</h1>
+        
+        <form className="SignInForm">
+            <label for="email" className="logLabel">Email Address</label><br/>
             <input 
-              id="email-address"
+              id="email"
               name="email"
-              className="Inputform"
+              className="inputForm"
               type="email"
               required
               placeholder="Email address"
               onChange={(e) => setEmail(e.target.value)}
-            />
-          </div>
+            /><br/>
 
-          <div className="FormInput">
-            <label className="Label">Password</label>
+            <label for="password" className="logLabel">Password</label><br/>
             <input 
-              className="Inputform"
+             id="password"
+              className="inputForm"
               type="password"
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Type here"
-            />
-          </div>
-
-          {/* <div className="Forgot-Password">
-          <p className="p">Keep Logged in</p>
-          <p className="p">Forgot Password?</p>
-        </div> */}
-
-          <div>
-            <button className="btnSign" onClick={onSubmit} type="submit">
+            /><br/>    
+           <div className="forgot">
+            <div className="d-flex">
+                <MdToggleOff className="toggle"/>
+                <p>Keep logged in</p>
+            </div>
+            <p className="fw-semibold">Forgot Password? </p>
+           </div>
+          
+            <button className="btn btnSign" onClick={onSubmit} type="submit">
               Submit
             </button>
-          </div>
-
-          <div className="new">
-            <p>New here? </p>
-            <p>
-              <a href="/SignUp-first"> sign up</a>
-            </p>
-          </div>
-        </div>
-      </div>
+          
+        </form>
+        <p className="new"> New here?  <a href="/SignUp-first"> Sign up</a> </p>
+      
     </div>
   );
 };
