@@ -14,11 +14,11 @@ function SignUp() {
         <p className="pp">Your very first step to ease and convenience </p>
       </div>
       <div className="btnSignUP">
-        <Link to='/SignUp-second' id="btnsignup">
+        <Link to='/register' id="btnsignup">
           Speaker
         </Link>
 
-        <Link to='/SignUp-second' id="btnsignup">
+        <Link to='/register' id="btnsignup">
           {" "}
           Event Organizer
         </Link>

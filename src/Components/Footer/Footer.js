@@ -11,7 +11,7 @@ function Footer() {
             <Link to='' className='btn btn-md eventBtn'>Event Organizer</Link>
             <Link to='' className='btn btn-md eventBtn eventBtn1'>Speaker</Link>
         </div>
-        <form action="#" method="POST" class="d-flex justify-content-around bg-white mx-auto mb-5 px-2 p-md-0 p-3 footerForm">
+        <form action="#" method="POST" class="d-flex justify-content-around bg-white mx-auto mb-5 px-2 p-3 footerForm">
             <h5 class="news my-auto">Subscribe to our newsletter</h5>
             <input type="text" placeholder="Enter your email" class="footerInput" name="email" />
             <button type="submit" class="btn footBtn my-auto">Submit</button>
