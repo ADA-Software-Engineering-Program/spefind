@@ -7,6 +7,7 @@ import CreateProfile from './pages/CreateProfile/CreateProfile';
 import Home from './pages/Home'
 import Explore from './pages/Explore/Explore'
 import Register from './pages/Register/Register';
+import Contact from './pages/Contact/Contact'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 	  <Route path='/register' element={<Register/>}/>
       <Route path="/createProfile" element={<CreateProfile />} />
 	    <Route path='/explore' element={<Explore/>}/>
+      <Route path='/contact' element={<Contact/>}/>
     </Routes>
   );
 }
