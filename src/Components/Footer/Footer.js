@@ -52,7 +52,7 @@ function Footer() {
             <img src={footerLogo} alt='logo' className='footerLogo'/>
             <div className='mt-md-5'>
                 <p className="text-white copyRight">
-                &copy; {new Date().getFullYear()} Spenfind. All right reserved.
+                &copy; {new Date().getFullYear()} Spefind. All right reserved.
                 </p>
             </div>
             <div className='socialMedia mt-4'>
