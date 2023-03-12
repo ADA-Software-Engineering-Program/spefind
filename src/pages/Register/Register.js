@@ -33,6 +33,7 @@ function Register() {
       <div className="Bg-img">
         <img src={Logo} alt='Logo' className="regLogo"/>
         <form className="JoinForm">
+            <div className="ovalBG"></div>
                 <div className="NameCard">
                     <div className="me-3 mt-1">
                         <label className="labell">First Name</label><br/>
