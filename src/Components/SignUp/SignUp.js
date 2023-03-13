@@ -18,7 +18,7 @@ function SignUp() {
           Speaker
         </Link>
 
-        <Link to='/register' id="btnsignup">
+        <Link to='/eventRegister' id="btnsignup">
           {" "}
           Event Organizer
         </Link>

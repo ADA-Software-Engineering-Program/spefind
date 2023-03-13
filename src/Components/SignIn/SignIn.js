@@ -18,7 +18,7 @@ const SignIn = () => {
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
-        navigate("/createProfile");
+        navigate("/explore");
         console.log(user);
       })
       .catch((error) => {

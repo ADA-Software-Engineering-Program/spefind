@@ -7,7 +7,7 @@ import Logo from '../../images/footerLogo.png';
 import { FcGoogle } from 'react-icons/fc';
 import { FaFacebookF, FaTwitter } from 'react-icons/fa'
 
-function Register() {
+function EventRegister() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
@@ -20,7 +20,7 @@ function Register() {
         .then((userCredential) => {
           const user = userCredential.user;
           console.log(user);
-          navigate("/createProfile");
+          navigate("/login");
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -88,4 +88,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default EventRegister;

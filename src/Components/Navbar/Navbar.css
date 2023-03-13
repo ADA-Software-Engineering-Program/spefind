@@ -16,6 +16,12 @@
     color: var(--grey);
 }
 
+.speakToggle {
+    width: 2rem;
+    height: 1.5rem;
+    color: var(--orange) !important;
+}
+
 #logBtn {
     display: flex;
     background-color: var(--orange);
