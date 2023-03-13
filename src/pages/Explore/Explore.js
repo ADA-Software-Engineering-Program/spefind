@@ -20,6 +20,7 @@ import {BiEnvelope} from 'react-icons/bi'
 import {AiOutlineCheckCircle} from 'react-icons/ai'
 import {FaAngleLeft, FaAngleRight, FaAngleDown} from 'react-icons/fa'
 import {BsDot} from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 
 const Explore = () => {
@@ -32,8 +33,8 @@ const Explore = () => {
                         <h1 className='explore-heading p-3'>Explore</h1>
 
                         <div className='form-group col-3 m-auto d-flex border rounded-pill'>
-                            <input type='search' className='form-control border-0' placeholder='Search for speaker'></input>
-                            <button type='submit'></button>
+                            <input type='search' className='form-control border-0 exploreInput' placeholder='Search for speaker'></input>
+                            <button type='submit' className='exploreBtn'></button>
                         </div>
                     </div>
                 </div>
@@ -70,7 +71,7 @@ const Explore = () => {
                             <span className='card-icon'><HiOutlineHeart/></span>
                             <p className='m-0'><AiOutlineCheckCircle/> Lifestyle</p>
                             <p><AiOutlineCheckCircle/> Career</p>
-                            <button className='btn btn-success rounded-pill'>Profile</button>
+                            <Link to='/speakerProfile' className='btn btn-success rounded-pill'>Profile</Link>
                         </div>
                     </div>
 

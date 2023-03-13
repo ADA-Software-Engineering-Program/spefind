@@ -18,7 +18,7 @@ const SignIn = () => {
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
-        navigate("/");
+        navigate("/explore");
         console.log(user);
       })
       .catch((error) => {
@@ -33,22 +33,24 @@ const SignIn = () => {
         <h1 className="miss">We missed you!</h1>
         
         <form className="SignInForm">
-            <label for="email" className="logLabel">Email Address</label><br/>
+            <label htmlFor="email" className="logLabel">Email Address</label><br/>
             <input 
               id="email"
               name="email"
               className="inputForm"
               type="email"
+              autoComplete="username"
               required
               placeholder="Email address"
               onChange={(e) => setEmail(e.target.value)}
             /><br/>
 
-            <label for="password" className="logLabel">Password</label><br/>
+            <label htmlFor="password" className="logLabel">Password</label><br/>
             <input 
              id="password"
               className="inputForm"
               type="password"
+              autoComplete="current-password"
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Type here"
             /><br/>    
@@ -65,7 +67,7 @@ const SignIn = () => {
             </button>
           
         </form>
-        <p className="new"> New here?  <a href="/SignUp-first"> Sign up</a> </p>
+        <p className="new"> New here?  <a href="/register"> Sign up</a> </p>
       
     </div>
   );
