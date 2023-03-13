@@ -19,31 +19,31 @@ const CreateProfile = () => {
           <form className='profileForms'>
 
             <div className="name"></div>
-              <label>FIRST NAME* </label>
+              <label className='profileLabel'>FIRST NAME* </label>
               <input type="text" name="firstname" className='profileInput' />
 
-              <label>LAST NAME* </label>
+              <label className='profileLabel'>LAST NAME* </label>
               <input type="text" name="lastname" className='profileInput' />
 
 
-              <label>GENDER*</label> 
+              <label className='profileLabel'>GENDER*</label> 
               <div className="gender">
           
-              <label > 
-                <input type="checkbox" name="gender" />Male
+              <label className='genderLabel'> 
+                <input type="checkbox" name="gender" className='genders' />Male
               </label>
 
-              <label >
-                <input type="checkbox" name="gender" />Female
+              <label className='genderLabel' >
+                <input type="checkbox" name="gender"className='genders'  />Female
               </label>
           
-              <label >
-                <input type="checkbox" name="gender" />Other
+              <label className='genderLabel'>
+                <input type="checkbox" name="gender" className='genders'  />Other
               </label> 
             </div>
 
 
-            <label >PROFILE PICTURE*</label>
+            <label className='profileLabel'>PROFILE PICTURE*</label>
             <div className="upload">
 
               <button className="select">Select File</button>
@@ -51,7 +51,7 @@ const CreateProfile = () => {
             </div>
 
 
-            <label>COUNTRY OR STATE*  </label>
+            <label className='profileLabel'>COUNTRY OR STATE*  </label>
             <select >
                 <option value="0">-None-</option>
                 <option value="1">Nigeria</option>
@@ -62,7 +62,7 @@ const CreateProfile = () => {
             </select>
 
 
-            <label>TIMEZONE*  </label>
+            <label className='profileLabel'>TIMEZONE*  </label>
             <select >
                 <option value="0">-None-</option>
                 <option value="1">Nigeria</option>
@@ -73,7 +73,7 @@ const CreateProfile = () => {
             </select>
 
 
-            <label>CITY*  </label>
+            <label className='profileLabel'>CITY*  </label>
             <select >
                 <option value="0">-None-</option>
                 <option value="1">Nigeria</option>
@@ -84,7 +84,7 @@ const CreateProfile = () => {
             </select>
 
 
-            <label style={{margin:20}}>BIOGRAPHICS </label>
+            <label className='profileLabel' style={{margin:20}}>BIOGRAPHICS </label>
             <div className="bio">
 
               <h2 >Bio* </h2>
@@ -99,7 +99,7 @@ const CreateProfile = () => {
               </div>
             </div>
 
-            <label style={{margin:20}}>PAST EVENTS</label>
+            <label className='profileLabel' style={{margin:20}}>PAST EVENTS</label>
             <div className="bio">
 
               <h2 >Videos and photos </h2>

@@ -1,145 +1,85 @@
-.SGN {
-    background-image: var(--bg);
-}
-
-
-.missed {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.miss {
-    font-size: 50px;
-    color: #E3502F;
-    font-family: 'Montserrat';
-
-
-}
-
-
 .SignInForm {
-     display: flex;
-     width: 100%;
-     align-items: center;
-     flex-direction: column;
-
-
-    /* justify-content: center;  */
-
-}
-.FormInput {
-    display: flex;
-    justify-content: center;
     width: 100%;
-    margin: 20px;
-
-}
-
-.Inputform::placeholder{
-background-color: var(--bg);
-opacity: 1;
+    margin: auto;
+    margin-top: .5rem;
+    padding: 1.4rem;
 }
 
 
-.Inputform{
-    width: 500px;
 
+
+.miss {
+    color: var(--orange);
+    font-size: 2rem;
+    text-align: center;
 }
-.Label{
-padding: 10px;
+
+.logLabel {
+    text-align: start;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
 }
-.Forgot-Password {
-display: flex;
+
+.inputForm {
+    width: 100%;
+    padding: .5rem;
+    margin-top: 1rem;
+    border: 1.7px solid var(--grey);
+    border-radius: .5rem;
 }
-.p {
+
+.forgot {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-size: .8rem;
+    margin-top: .8rem;
+    font-weight: 500;
 }
+
+.toggle{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: -.2rem;
+    color: var(--green);
+}
+
 .btnSign {
-    background: #359E4C;
-    width: 300px;
-    padding: 15px;
+    width: 45%;
+    background-color: var(--green);
     color: #fff;
-    border: none;
-    outline: hidden;
-    border-radius: 4px;
-    cursor: pointer;
+    font-weight: 600;
+    margin: auto 28%;
+    margin-top: 1rem;
 }
+
 .new {
-    display: flex;
-    padding: 10px;
-    gap: 5px;
-
+    text-align: center;
+    font-size: .9rem;
+    margin-top: -.6rem;
+    font-weight: 500;
 }
-@media only screen and (max-width: 768px) {
- .SGN {
-   background-image: var(--bg);
- }
 
- .missed {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
- }
+.new a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #111010;
+}
 
- .miss {
-   font-size: 30px;
-   color: #E3502F;
-   font-family: 'Montserrat';
- }
+@media only screen and (min-width:1024px) {
+    .SignInForm {
+        width: 50%;
+        
+    }
 
- .SignInForm {
-   display: flex;
-   width: 100%;
-   align-items: center;
-   flex-direction: column;
- }
+    .miss {
+        font-size: 4rem;
+    }
 
- .FormInput {
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   margin: 10px;
-   flex-wrap: wrap;
- }
-
- .InputForm {
-   width: 80%;
-   margin: 5px;
- }
-
- .Label {
-   padding: 5px;
- }
-
- .Forgot-Password {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
- }
-
- .p {
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: wrap;
- }
-
- .btnSign {
-   background: #359E4C;
-   width: 100%;
-   padding: 15px;
-   color: #fff;
-   border: none;
-   outline: hidden;
-   border-radius: 4px;
-   cursor: pointer;
- }
-
- .new {
-   display: flex;
-   padding: 5px;
-   gap: 5px;
- }
+    .btnSign {
+        width: 35%;
+        margin: auto 30%;
+    }
 }

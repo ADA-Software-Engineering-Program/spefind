@@ -25,9 +25,10 @@
 .profileForms .gender{
     display: flex;
     flex-direction: column;
-    align-items: baseline;
+    align-items: start;
     margin-bottom: 20px;
 }
+
 .profileInput, select,textarea{
     width: 100%;
     padding: 5px;
@@ -41,7 +42,7 @@
     display: flex;
     flex-direction: column;
    align-items: baseline;
-   text-align: start;
+   text-align: left;
 }
 
 .profileForms .upload{
@@ -59,10 +60,23 @@
     font-size: 12px;
 }
 
-input[type=checkbox]{
-    display: flex;
-    margin-right:5px ;
+.genders{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #d9d9d9;
+    margin-right: 16px ;
 }
+
+.genderLabel {
+    font-weight: 500;
+}
+
 input[type=submit]{
     margin-top: 14px;
     background-color:#04aa6d ;
@@ -73,7 +87,7 @@ input[type=submit]{
     color: #fff;
     margin-bottom: 40px;
 }
-label{
+.profileLabel{
     text-align: center;
     display: flex;
     justify-content: center;
@@ -123,7 +137,7 @@ label{
         margin: 0 80px ; 
     }
 
-    input[type=text],select,textarea{
+    .profileInput, select,textarea{
         padding: 10px;
         margin: 20px 0;
     }
@@ -136,7 +150,7 @@ label{
         font-size: 14px;
     }
 
-    label{
+    .profileLabel{
         font-size: 23px;
         font-weight: 600;
     }

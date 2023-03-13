@@ -154,7 +154,7 @@
 
     .search {
         position: absolute;
-        margin-top: 1.8rem;
+        margin-top: 2.5rem;
         margin-left: -3rem;
         width: 2rem;
         height: 2rem;
@@ -212,21 +212,21 @@
     .featInput {
         position: relative;
         width: 50%;
-        margin-top: 2rem;
+        margin-top: 1.4rem;
         padding: .6rem 1rem;
         border: 2px solid var(--grey);
         border-radius: 2rem;
         background: transparent;
     }
 
-    .search {
+    /* .search {
         position: absolute;
-        margin-top: 1.8rem;
+        margin-top: 1.8rem !important;
         margin-left: -3rem;
         width: 2rem;
         height: 2rem;
         color: var(--grey);
-    }
+    } */
 
     .reviewDetail {
         margin-top: -1.5rem;

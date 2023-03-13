@@ -17,8 +17,8 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"start": "react-scripts --openssl-legacy-provider start",
-		"build": "react-scripts --openssl-legacy-provider build",
+		"start": "react-scripts start",
+		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
 	},
@@ -41,6 +41,8 @@
 		]
 	},
 	"devDependencies": {
-		"@testing-library/jest-dom": "^5.16.5"
+		"@testing-library/jest-dom": "^5.16.5",
+		"enzyme": "^3.11.0",
+		"mutationobserver-shim": "^0.3.7"
 	}
 }

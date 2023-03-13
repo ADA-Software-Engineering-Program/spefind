@@ -1,6 +1,7 @@
 # spefind
 
-# spefind
+
+## spefind
 
 SPEFIND is an online booking platform that allows event organizers to book speakers for their events seamlessly. Our platform is a one-stop platform that makes it easy for organizers to find and book the right speakers for their events, saving them time and money while ensuring the highest level of quality and customer satisfaction.   
 
@@ -104,8 +105,6 @@ The SPEFIND project is  ADA software engineering program. This project was creat
 |Nafisat Faruk | nafisatfaruk5@gmail.com | Cloud Engineer |
 
 
-# Link to the project 
-https://brilliant-cactus-7b5c42.netlify.app
 
 
 # Link to PRD
