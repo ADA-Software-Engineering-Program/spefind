@@ -1,0 +1,171 @@
+.bookme {
+  font-family: "Montserrat", sans-serif;
+  background: url(../../images/bookme-wavy.png) no-repeat;
+}
+
+.bookme .bookme-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.bookme .heading-primary {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 85px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  color: #e3502f;
+}
+
+.bookme .paragraph {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 43px;
+  margin-bottom: 80px;
+}
+
+.schedule-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bookme .schedule-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bookme .schedule-block {
+  display: flex;
+  gap: 20px;
+}
+
+.bookme .schedule-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #e3502f;
+}
+
+.bookme .schedule-line {
+  height: 100%;
+  width: 1px;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.bookme .schedule-line.last {
+  height: 0;
+  width: 1px;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.bookme .schedule-cont {
+  margin-bottom: 20px;
+}
+
+.bookme .schedule-date {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000c9;
+  margin-bottom: 10px;
+}
+
+.bookme .schedule-location {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000c9;
+  margin-bottom: 10px;
+}
+
+.bookme .schedule-time {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.bookme .schedule-icon {
+  color: #948d8d;
+  font-size: 20px;
+}
+
+.bookme .schedule-btn {
+  border: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 6px;
+  width: 115px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.bookme .booked {
+  background: #948d8d;
+}
+
+.bookme .available {
+  background: #359e4c;
+}
+
+.bookme .heading-tertiary {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 43px;
+  margin-top: 100px;
+}
+
+.bookme .bookme-socials {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 30px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 100px;
+}
+
+.bookme .bookme-social-details {
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bookme .bookme-icon {
+  color: #e3502f;
+  font-size: 30px;
+}
+
+.bookme .event {
+  border: none;
+  outline: none;
+  background: #359e4c;
+  border-radius: 8px;
+  padding: 10px 30px;
+  width: 300px;
+  height: 64px;
+  display: block;
+  margin-bottom: 80px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+}
