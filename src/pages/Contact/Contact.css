@@ -9,12 +9,12 @@
     color: #E3502F;
 }
 
-form{
+.contactForm{
     background-color: #ffffff;
     font-size: 12px;
 }
 
-label{
+.contactLabel{
     font-size: 17px;
 }
 
@@ -41,7 +41,7 @@ input::placeholder{
     font-size: 12px;    
 }
 
-textarea{
+.contatTextarea{
     height: 15vh !important;
     resize: none;
 }
