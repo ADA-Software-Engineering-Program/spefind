@@ -4,8 +4,9 @@
 }
 
 .bookme .bookme-container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 .bookme .heading-primary {
@@ -143,7 +144,6 @@
 .bookme .bookme-social-details {
   max-width: 650px;
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 
@@ -168,4 +168,188 @@
   font-weight: 400;
   line-height: 33px;
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .bookme .bookme-container {
+    padding: 0 30px;
+  }
+
+  .bookme .heading-primary {
+    font-size: 50px;
+    line-height: 70px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .bookme .paragraph {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+
+  .bookme .schedule-box {
+    gap: 10px;
+  }
+
+  .bookme .schedule-block {
+    gap: 15px;
+  }
+
+  .bookme .schedule-circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  .bookme .schedule-cont {
+    margin-bottom: 20px;
+  }
+
+  .bookme .schedule-date {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+
+  .bookme .schedule-location {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bookme .schedule-time {
+    gap: 25px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .bookme .schedule-icon {
+    font-size: 18px;
+  }
+
+  .bookme .schedule-btn {
+    font-size: 14px;
+    line-height: 20px;
+    width: 90px;
+    height: 40px;
+  }
+
+  .bookme .heading-tertiary {
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 45px;
+  }
+
+  .bookme .bookme-socials {
+    margin-top: 45px;
+    gap: 25px;
+    font-size: 19px;
+    margin-bottom: 50px;
+  }
+
+  .bookme .bookme-social-details {
+    gap: 30px;
+  }
+
+  .bookme .bookme-icon {
+    font-size: 25px;
+  }
+
+  .bookme .event {
+    width: 220px;
+    height: 45px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bookme .heading-primary {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 30px;
+  }
+
+  .bookme .paragraph {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .bookme .schedule-box {
+    display: flex;
+    gap: 0px;
+  }
+
+  .bookme .schedule-block {
+    gap: 10px;
+  }
+
+  .bookme .schedule-circle {
+    width: 14px;
+    height: 14px;
+  }
+
+  .bookme .schedule-cont {
+    margin-bottom: 30px;
+  }
+
+  .bookme .schedule-date {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+  .bookme .schedule-location {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+  }
+
+  .bookme .schedule-time {
+    gap: 25px;
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .bookme .schedule-icon {
+    font-size: 15px;
+  }
+
+  .bookme .schedule-btn {
+    font-size: 12px;
+    line-height: 15px;
+    width: 75px;
+    height: 32px;
+  }
+
+  .bookme .heading-tertiary {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 25px;
+  }
+
+  .bookme .bookme-socials {
+    margin-top: 25px;
+    gap: 20px;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .bookme .bookme-social-details {
+    gap: 30px;
+  }
+
+  .bookme .bookme-icon {
+    font-size: 20px;
+  }
+
+  .bookme .event {
+    width: 180px;
+    height: 37px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
