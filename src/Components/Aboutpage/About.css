@@ -1,0 +1,191 @@
+.aboutheading {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.aboutsubheading{
+    text-align: center;
+    padding: 0 20%;
+    line-height: 2;
+}
+
+.aboutimg{
+    text-align: center;
+    margin: 20px auto ;
+}
+
+/* Value section */
+
+.values{
+    background: rgba(227, 80, 47, 0.1);
+    padding: 2% 10%;
+    margin: 0 auto;
+}
+
+.value{
+    display: flex;
+}
+
+.valueheading{
+    font-size: 2.5rem;
+}
+
+.valuenum{
+    margin: 0 30px;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+.valuetext{
+    margin-right: 180px;
+}
+
+.valuesubtext{
+    line-height: 1.8;
+    font-size: 1rem;
+} 
+
+/* Vision and Mission */
+
+.visionandmission{
+    background-color: #ffff;
+    margin: 5% 10%;
+}
+
+.vision{
+    background: #FCEDEA;
+    border-radius: 65px;
+    padding: 50px;
+    margin-top: 8%;
+}
+
+.visiontitle{
+   font-size: 2rem;
+   font-weight: 600;
+}
+
+.visionsubtitle{
+   font-size: 1.2rem;
+   line-height: 1.8;
+}
+
+/* Meet the Team */
+.team{
+    background-color: #ffff;
+    margin: 5% 12%;
+}
+
+.teamtitle{
+    font-weight: 600;
+}
+
+.teamsubtitle{
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
+
+.teammembers {
+    margin: 8% auto;
+}
+
+.teamimg{
+    background: rgba(227, 80, 47, 0.2);
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+}
+
+.teamname{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.teamrole{
+    font-size: 1.2rem;
+    margin: 0;
+} 
+
+@media only screen and (min-width: 992px) and (max-width: 1300px){
+    
+    .valuetext {
+        margin-right: 0px;
+   }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .herosection {
+        margin-top: 2rem;
+    }
+
+    .aboutheading{
+        font-size: 3em;
+    }
+
+    .aboutsubheading{
+        padding: 0 8%;
+    }
+
+    .values{
+        padding: 0;
+    }
+
+    .valueheading {
+        font-size: 2rem;
+    }
+
+    .valuetext {
+         margin-right: 30px;
+    }
+
+    .valuesubtext {
+        font-size: 0.9rem;
+    }
+
+    .visionandmission{
+        margin: 10%;
+    }
+
+    .vision{
+        padding: 30px;
+    }
+
+    .visiontitle {
+        font-size: 1.5rem;
+    }
+
+    .visionsubtitle {
+        font-size: 0.8rem;
+    }
+
+    .team{
+        margin-top: 60px;
+    }
+
+    .teamtitle{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    .teamsubtitle{
+        font-size: 0.9rem;
+        text-align: center;
+        padding: 0 3%;
+    }
+
+    .teamimg{
+        width: 250px;
+        height: 250px;
+    }
+
+    .teamname {
+        font-size: 1.2rem;
+    }
+
+    .teamrole {
+        font-size: 1rem;
+    }
+
+}
