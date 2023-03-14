@@ -3,7 +3,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker, HiOutlineLocationMarker } from "react-icons/hi";
 import { IoMailSharp } from "react-icons/io5";
 import { AiOutlineClockCircle } from "react-icons/ai";
-import { MdOutlinePhoneInTalk } from "react-icons/md";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Navbar/Navbar";
 import "./Bookme.css";
