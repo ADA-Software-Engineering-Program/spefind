@@ -10,6 +10,7 @@ import Register from './pages/Register/Register';
 import Contact from './pages/Contact/Contact'
 import EventRegister from './pages/Register/EventRegster';
 import SpeakerProfile from './pages/SpeakerProfile/SpeakerProfile';
+import Blog from './pages/Blog/Blog/Blog';
 function App() {
   return (
     <Routes>
@@ -19,6 +20,7 @@ function App() {
 	  <Route path='/register' element={<Register/>}/>
 	  <Route path='/eventRegister' element={<EventRegister/>}/>
       <Route path="/createProfile" element={<CreateProfile />} />
+	  <Route path='/blog' element={<Blog/>}/>
 	    <Route path='/explore' element={<Explore/>}/>
       <Route path='/contact' element={<Contact/>}/>
 	  <Route path='/speakerProfile' element={<SpeakerProfile/>}/>
