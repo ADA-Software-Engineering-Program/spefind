@@ -1,0 +1,223 @@
+.speakHeroBG {
+    background-image: url(../../images/registerBG.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100dvh;
+    margin-top: -22%;
+}
+
+.speakLogo {
+    width: 30%;
+    margin-top: 0rem;
+    overflow: hidden;
+}
+
+.speakHeroContent {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.speakHeroTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.speakHerop {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.speakHeronumb {
+    width: 2.5rem;
+    height: 1.3rem;
+    border-radius: .2rem;
+    text-align: center;
+    padding-top: .1rem;
+    font-size: .8rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #FEB703;
+}
+
+.speakArrow {
+    width: 3rem;
+    height: 3rem;
+    margin: auto 4rem;
+    margin-top: 8rem;
+    color: var(--grey);
+    opacity: 0.5;
+}
+
+.speakAboutContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.speakAboutMain {
+    width: 80dvw;
+   margin-left: 19.1%;
+    box-shadow: -.8rem .8rem .6rem rgba(148, 141, 141, 0.2);
+}
+
+.speakAboutContent {
+    width: 100%;
+    padding-left: .5rem;
+}
+
+.speakAboutContent > h3,
+.spoken {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.speakAboutContent > p {
+    font-weight: 500;
+}
+
+.aboutRightA {
+    font-weight: 600;
+    color: var(--grey);
+}
+
+.speakAboutLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speakAboutRight {
+    padding-top: 10rem;
+}
+
+.titiLayo {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 4rem;
+    box-shadow: -1.5rem 1.5rem .6rem rgba(148, 141, 141, 0.2);
+}
+
+.speakAboutP {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.percent {
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.percentSpan {
+    color: var(--grey);
+}
+
+.speakAboutIcon {
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+    border: 1px solid rgba(53, 158, 76, 1);
+    border-radius: 50%;
+}
+
+.speakAboutIcons {
+    margin: auto .4rem;
+    margin-top: .2rem;
+    color: rgba(53, 158, 76, 1);
+}
+
+.speakAboutBtn {
+    font-size: .8rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(53, 158, 76, 1);
+}
+
+.eventRow {
+    margin: auto;
+}
+
+.eventPics {
+    width: 15rem;
+    height: 8rem;
+}
+
+.speakEventTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.speakEventP {
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.79);
+}
+
+.speakFooter {
+    margin-top: auto;
+}
+
+@media only screen and (min-width:768px)  {
+    .eventRow {
+        margin: auto 10rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .speakHeroBG {
+        background-image: url(../../images/registerBG.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height: 100dvh;
+        margin-top: -10%;
+    }
+
+    .speakLogo {
+        width: 30%;
+        margin-top: -3rem;
+        overflow: hidden;
+    }
+
+    .speakHeroContent {
+        position: absolute;
+        top: 40%;
+        left: 25%;
+    }
+
+    .speakHeroTitle {
+        font-size: 4rem;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .speakArrow {
+        width: 3rem;
+        height: 3rem;
+        margin: auto 4rem;
+        margin-top: 11rem;
+        color: var(--grey);
+        opacity: 0.5;
+    }
+
+    .titiLayo {
+        margin-top: 0rem;
+    }
+
+    .speakAboutContent {
+        width: 85%;
+        padding-left: 0rem;
+    }
+
+    /* .eventRow {
+        margin: auto 3rem;
+    } */
+    
+}

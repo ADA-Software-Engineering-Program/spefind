@@ -1,0 +1,168 @@
+.header {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39px;
+}
+.header p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 33px;
+}
+
+.form {
+  text-align: center;
+  margin: 0 10px;
+}
+.profileForms .gender {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.profileInput,
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 15px 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+
+.profileForms .upload {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  text-align: left;
+}
+
+.profileForms .upload {
+  margin-bottom: 20px;
+}
+.profileForms .upload button {
+  border-radius: 5px;
+  background-color: #e3502f;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  margin: 15px 0;
+}
+.profileForms .upload p {
+  font-size: 12px;
+}
+
+.genders {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid #d9d9d9;
+  margin-right: 16px;
+}
+
+.genderLabel {
+  font-weight: 500;
+}
+
+input[type="submit"] {
+  margin-top: 14px;
+  background-color: #04aa6d;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.profileLabel {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bio {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.bio h2 {
+  font-size: 16px;
+  display: flex;
+}
+
+.bio-items {
+  display: flex;
+  align-items: center;
+}
+
+.profileForms #addnew {
+  padding: 5px 10px;
+  display: flex;
+  margin-top: 20px;
+  font-family: 700;
+  color: #d9d9d9;
+  background-color: #fff;
+  border: #d9d9d9 1px solid;
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .header p {
+    font-size: 23px;
+  }
+
+  .form {
+    margin: 0 80px;
+  }
+
+  .profileInput,
+  select,
+  textarea {
+    padding: 10px;
+    margin: 20px 0;
+  }
+
+  .profileForms .upload button {
+    font-size: 18px;
+  }
+
+  .profileForms .upload p {
+    font-size: 14px;
+  }
+
+  .profileLabel {
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  input[type="submit"] {
+    margin-top: 14px;
+    background-color: #04aa6d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 23px;
+    border-radius: 5px;
+    color: #fff;
+  }
+}
+
+@media (min-width: 1024px) {
+  .form {
+    margin: 0 400px;
+  }
+}

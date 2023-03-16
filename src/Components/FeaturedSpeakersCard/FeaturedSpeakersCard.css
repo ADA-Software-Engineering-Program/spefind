@@ -1,15 +1,241 @@
-.card {
-    width: 20%;
-    background-color: var(--bg);
+.speakerImg,
+.profilePics {
+    width: 30%;
 }
 
 .card-button {
-    background-color: var(--green);
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid var(--grey);
+    font-weight: 500;
+    border-radius: 1.5rem;
+    padding: .5rem 1rem;
+    color: var(--green);
 }
 
-.ft-speaker-card {
-    border: 1px solid red;
+.featCard {
+    margin-top: 12rem;
+}
+
+.featInput {
+    position: relative;
+    width: 70%;
+    margin-top: 2rem;
+    padding: .6rem 1rem;
+    border: 2px solid var(--grey);
+    border-radius: 2rem;
+    background: transparent;
+}
+
+.search {
+    position: absolute;
+    margin-top: 2.5rem;
+    margin-left: -3rem;
+    width: 2rem;
+    height: 2rem;
+    color: var(--grey);
+}
+
+.header {
+    font-size: 2rem;
+    margin: 2.5rem 0rem;
+}
+
+.upperRow {
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.lowerRow {
+    padding-top: 2rem;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem 0rem;
+    background-color: var(--bg);
+}
+
+.starRating {
+    color: rgba(254, 183, 3, 1);
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.mailHeart {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: .6rem;
+    color: var(--grey);
+}
+
+.check{
+    width: 1.3rem;
+    height: 1.3rem;
+    color: var(--grey);
+}
+
+.check1 {
+    width: 1.3rem;
+    height: 1.3rem;
+    color: var(--grey);
+    margin-left: -.8rem;
+}
+
+.checkText{
+    color: var(--grey);
+    margin-left: .4rem;
+}
+
+.findSection {
+    margin-top: 6rem;
+    background-color: var(--bg);
+}
+
+.findHead {
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.findText {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin: auto;
+}
+
+.joinRow1 {
+    margin: auto 0rem;
+}
+
+.reviewSection {
+    background-color: var(--bg);
+    padding-bottom: 5rem;
+}
+
+.reviewCards{
+    background-color: var(--bg);
+    padding: 1rem;
+    height: 260px;
+    border-radius: 2rem;
+}
+.reviewDetail {
+    margin-top: -1.5rem;
+    margin-left: 6.3rem;
+}
+
+.designation {
+    font-size: .7rem;
+    font-weight: 500;
+    margin-top: -.4rem;
+}
+
+.reviewDetailText {
+    font-size: .7rem;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+
+.reviewRow {
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:768px) {
+    .featCard {
+        margin-top: 4rem;
+    }
+
+    .search {
+        position: absolute;
+        margin-top: 2.5rem;
+        margin-left: -3rem;
+        width: 2rem;
+        height: 2rem;
+        color: var(--grey);
+    }
+
+    .reviewDetail {
+        margin-top: -8.5rem;
+        margin-left: 14.3rem;
+    }
+
+    .reviewDetailText {
+        font-size: .9rem;
+        font-weight: 500;
+        margin-top: .5rem;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .header {
+        font-size: 2.8rem;
+        margin: 2.5rem 0rem;
+    }
+
+    .findHead {
+        font-size: 2.8rem;
+        padding-top: 4rem;
+    }
+
+    .joinRow1 {
+        margin: auto 6rem;
+    }
+
+    .findText {
+        width: 60%;
+        font-size: 1.3rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        margin: auto;
+    }
+
+    .featCard {
+        margin-top: 12rem;
+    }
+
+    .search {
+        position: absolute;
+        margin-top: 1.8rem;
+        margin-left: -3rem;
+        width: 2rem;
+        height: 2rem;
+        color: var(--grey);
+    }
+
+    .featInput {
+        position: relative;
+        width: 50%;
+        margin-top: 1.4rem;
+        padding: .6rem 1rem;
+        border: 2px solid var(--grey);
+        border-radius: 2rem;
+        background: transparent;
+    }
+
+    /* .search {
+        position: absolute;
+        margin-top: 1.8rem !important;
+        margin-left: -3rem;
+        width: 2rem;
+        height: 2rem;
+        color: var(--grey);
+    } */
+
+    .reviewDetail {
+        margin-top: -1.5rem;
+        margin-left: 6.3rem;
+    }
+
+    .reviewDetailText {
+        font-size: .7rem;
+        font-weight: 500;
+        margin-top: .5rem;
+    }
 }

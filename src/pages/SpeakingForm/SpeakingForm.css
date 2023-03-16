@@ -1,0 +1,231 @@
+.speaking {
+  font-family: "Montserrat", sans-serif;
+  background: url(../../images/speaking-bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.speaking .speaking-box {
+  padding: 50px;
+  padding-top: 40px;
+}
+
+.speaking .speaking-container {
+  background: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 70px 60px 50px;
+  color: #000;
+}
+
+.speaking .heading-secondary {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+  margin-bottom: 10px;
+}
+
+.speaking .paragraph {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.speaking .speaking-form {
+  color: #000;
+}
+
+.speaking .form-group {
+  margin-bottom: 40px;
+}
+
+.speaking .form-flex {
+  display: flex;
+  align-items: center;
+}
+
+.speaking .form-label {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.speaking .form-radio-label {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.speaking .form-label-event {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.speaking .form-input {
+  width: 100%;
+  height: 60px;
+  padding: 10px 20px;
+  border: 2px solid #0000004d;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  outline: none;
+  font-family: inherit;
+}
+
+.speaking .form-input::placeholder {
+  font-family: inherit;
+  color: #00000080;
+  font-size: 15px;
+}
+
+.speaking .form-radio-input {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.speaking .form-input-time {
+  width: 160px;
+  height: 60px;
+  padding: 5px 20px;
+  border: 2px solid #0000004d;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  outline: none;
+  font-family: inherit;
+  margin-right: 20px;
+}
+
+.speaking .form-input-time:last-child {
+  margin-right: 0;
+}
+
+.speaking .form-text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-right: 20px;
+  color: #000;
+}
+
+.speaking .btn-submit {
+  border: none;
+  outline: none;
+  background: #359e4c;
+  width: 360px;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+}
+
+.speaking .u-margin-small {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .speaking .speaking-box {
+    padding: 50px 30px;
+  }
+
+  .speaking .speaking-container {
+    padding: 70px 30px 50px;
+  }
+
+  .speaking .heading-secondary {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .speaking .form-group {
+    margin-bottom: 30px;
+  }
+
+  .speaking .form-label {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+
+  .speaking .form-input {
+    height: 50px;
+  }
+
+  .speaking .form-input-time {
+    height: 50px;
+  }
+
+  .speaking .btn-submit {
+    width: 300px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .speaking .speaking-box {
+    padding: 50px 20px;
+  }
+
+  .speaking .speaking-container {
+    padding: 70px 20px 50px;
+  }
+
+  .speaking .heading-secondary {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .speaking .paragraph {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 30px;
+  }
+
+  .speaking .form-group {
+    margin-bottom: 25px;
+  }
+
+  .speaking .form-label {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+  .speaking .form-label-event {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .speaking .form-input {
+    height: 40px;
+    padding: 10px;
+  }
+
+  .speaking .form-radio-input {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+
+  .speaking .form-input-time {
+    height: 40px;
+    padding: 10px 5px;
+  }
+
+  .speaking .btn-submit {
+    width: 100%;
+    height: 40px;
+  }
+}
