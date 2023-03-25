@@ -15,7 +15,7 @@ const Header = () => {
   const splitLocation = pathname.split('/');
 
   return (
-    <Navbar expand="lg" className="navbar-main">
+    <Navbar expand="lg" className="navbar-main navbarMain">
       <Container>
         <div className="d-flex align-items-center">
           <Navbar.Brand href="/">
@@ -25,36 +25,39 @@ const Header = () => {
         </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-gap">
-            <Nav.Link href="/" className={splitLocation[1] === '' ? 'active' : ''}>
+            <Nav.Link
+              href="/"
+              className={splitLocation[1] === "" ? "active" : ""}
+            >
               Home
             </Nav.Link>
             <Nav.Link
               href="./about"
-              className={splitLocation[1] === 'about' ? 'active' : ''}
+              className={splitLocation[1] === "about" ? "active" : ""}
             >
               About
             </Nav.Link>
             <Nav.Link
               href="./explore"
-              className={splitLocation[1] === 'explore' ? 'active' : ''}
+              className={splitLocation[1] === "explore" ? "active" : ""}
             >
               Explore
             </Nav.Link>
             <Nav.Link
               href="./blog"
-              className={splitLocation[1] === 'blog' ? 'active' : ''}
+              className={splitLocation[1] === "blog" ? "active" : ""}
             >
               Blog
             </Nav.Link>
             <Nav.Link
               href="./contact"
-              className={splitLocation[1] === 'contact' ? 'active' : ''}
+              className={splitLocation[1] === "contact" ? "active" : ""}
             >
               Contact
             </Nav.Link>
             <Nav.Link
               href="./login"
-              className={splitLocation[1] === 'login' ? 'active' : ''}
+              className={splitLocation[1] === "login" ? "active" : ""}
               id="logBtn"
             >
               Log In
